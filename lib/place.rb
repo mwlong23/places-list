@@ -22,4 +22,12 @@ class Place
   def self.clear
     @@places = []
   end
+
+  def self.find(name)
+    @@places.each do |place|
+      if place.name == name
+        return place
+      end
+    end
+  end
 end

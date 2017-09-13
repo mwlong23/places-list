@@ -26,6 +26,9 @@ _A Ruby Script_
 * Place class list can be cleared.
   * Example input: Place.clear
   * Example output: Place.all = []
+* Place class can find a place object based on it's name
+  * Example input: place.find("seattle")
+  * Example output: "Seattle", "June 2017", "WA, USA"
 
 ## Support and contact details
 
