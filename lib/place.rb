@@ -18,4 +18,8 @@ class Place
   def self.all
     @@places
   end
+
+  def self.clear
+    @@places = []
+  end
 end

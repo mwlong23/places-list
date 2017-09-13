@@ -12,7 +12,14 @@ describe('Place') do
     it "contains all places saved" do
       seattle = Place.new("Seattle", "2017.06.01", "WA, USA")
       seattle.save
-      expect(Place.all).to(eq([seattle])) 
+      expect(Place.all).to(eq([seattle]))
+    end
+  end
+
+  describe('.clear') do
+    it "clears list of saved places" do
+      Place.clear
+      expect(Place.all).to(eq([]))
     end
   end
 
