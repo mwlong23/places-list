@@ -20,8 +20,8 @@ _A Ruby Script_
 * Place class list starts out empty.
   * Example input: Place.all
   * Example output: []
-* Place class list contains all places created.
-  * Example input: place1 = "Seattle", "June 2017", "WA, USA"
+* Place class list contains all places saved.
+  * Example input: place1 = "Seattle", "June 2017", "WA, USA", place1.save
   * Example output: Place.all = [place1]
 * Place class list can be cleared.
   * Example input: Place.clear
